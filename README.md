@@ -1,7 +1,7 @@
 Geologist
 =============
 
-Geologist allows you to talk to your minecraft server using HTTP. Get stats and issues rcon commands via a clean HTTP interface.
+Geologist allows you to talk to your minecraft server using HTTP. Get stats and issue rcon commands via a clean HTTP interface.
 
 Install
 -------------
@@ -13,7 +13,7 @@ npm install -g geologist
 Usage
 ------------
 
-You'll need to provide geologist a few pieces of information to get started:
+You'll need to provide geologist a few pieces of information to start it.
 
 ```bash
 geologist
@@ -29,9 +29,9 @@ Options:
 
 * port - The port on which geologist will listen.
 * minecrafthost - The host of your minecraft server. I recommend running geologist on the same physical machine and passing 'localhost' for this parameter.
-* queryport - The query port for you minecraft server. Look for the line 'query.port=' in your server.properties file.
-* rconport - The rcon port for you minecraft server. Look for the line 'rcon.port=' in your server.properties file.
-* rconpassword - The rcon password for you minecraft server. Look for the line 'rcon.password=' in your server.properties file.
+* queryport - The query port for your minecraft server. Look for the line 'query.port=' in your server.properties file.
+* rconport - The rcon port for your minecraft server. Look for the line 'rcon.port=' in your server.properties file.
+* rconpassword - The rcon password for your minecraft server. Look for the line 'rcon.password=' in your server.properties file.
 
 If node isn't in your path, you can run geologist using something like the following:
 
