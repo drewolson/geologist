@@ -1,12 +1,12 @@
 {
   "name" : "geologist",
   "version" : "1.0.0",
-  "description" : "Talk http to your minecraft server",
+  "description" : "talk to your minecraft server with http",
   "keywords" : ["minecraft"],
   "homepage" : "http://github.com/drewolson/geologist",
   "author" : "Drew Olson <drew@drewolson.org> (http://drewolson.org)",
   "bin": "./app.js",
-  "repository" : { "type": "git", "url" : "https://github.com/drewolson/geologist.git" },
+  "repository" : {"type": "git", "url": "https://github.com/drewolson/geologist.git"},
   "engines" : { "node": "~0.6.6" },
   "dependencies" : {
     "express"  : "=2.5.1",

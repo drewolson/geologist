@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var argv = require('optimist')
-  .usage('usage: app.js --port [port] --minecrafthost [host] --queryport [query port] --rconport [rcon port] --rconpassword [rcon password]')
+  .usage('usage: geologist --port [port] --minecrafthost [host] --queryport [query port] --rconport [rcon port] --rconpassword [rcon password]')
   .demand(['port', 'queryport', 'rconport', 'rconpassword'])
   .argv;
 
