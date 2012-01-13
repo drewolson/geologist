@@ -2,7 +2,7 @@
 
 var argv = require('optimist')
   .usage('usage: geologist --port [port] --minecrafthost [host] --queryport [query port] --rconport [rcon port] --rconpassword [rcon password]')
-  .demand(['port', 'queryport', 'rconport', 'rconpassword'])
+  .demand(['port', 'minecrafthost', 'queryport', 'rconport', 'rconpassword'])
   .argv;
 
 var express = require('express');
