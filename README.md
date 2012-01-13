@@ -48,7 +48,7 @@ First, run geologist on your minecraft server and pass in the appropriate parame
 geologist --port 9000 --minecrafthost localhost --queryport [query port] --rconport [rcon port] --rconpassword [rcon password]
 ```
 
-First, we'll retrieve the server's stats:
+Next, we'll retrieve the server's stats:
 
 ```bash
 curl localhost:9000/stats
