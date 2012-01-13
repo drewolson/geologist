@@ -64,6 +64,14 @@ curl -X POST --data "command=toggledownfall" localhost:9000/command
 
 In a nutshell, perform a GET on /stats for the server stats, perform a POST on /command and provide a command in the post body to send rcon commands to your server.
 
+Thanks
+------------
+
+Thanks to the following projects, which I've essentially vendored and exposed via express:
+
+* https://github.com/kmpm/node-mcquery
+* https://github.com/tehbeard/node-rcon
+
 License
 ------------
 
