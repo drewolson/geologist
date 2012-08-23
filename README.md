@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/drewolson/geologist.png)](http://travis-ci.org/drewolson/geologist)
 Geologist
 =============
 
